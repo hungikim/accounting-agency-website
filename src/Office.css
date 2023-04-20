@@ -1,0 +1,26 @@
+.Office {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin: 50px 70px 70px 70px;
+}
+
+.address {
+    text-align: center;
+}
+
+.map-image {
+    border-radius: 20px;
+    border: solid 1px #CCCCCC;
+    width: 800px;
+    flex-basis: 400px;
+    cursor: pointer;
+}
+
+.map-comment {
+    margin: 0.5rem;
+    text-align: right;
+    color: gray;
+}

@@ -1,0 +1,41 @@
+header {
+    border-bottom: solid 1px #CCCCCC;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+.Navbar {
+    display: flex;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.logo a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+}
+
+.navbar-right {
+    color: gray;
+}
