@@ -1,14 +1,15 @@
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
-import { useEffect } from 'react'
 
-export default function Navbar(){
+export default function Navbar({ toggleTheme, theme }){
+
     const navScrollToTop = e => {
         console.log('listener')
         if (e.target.matches('.Navbar a')) window.scrollTo(0,0)
     }
+
     return (
-        <header>
+        <header className={theme}>
             <nav className='Navbar' onClick={navScrollToTop}>
                 <div className='logo'>그린세무법인</div>
                 <ul className='navbar-center'>
@@ -24,7 +25,7 @@ export default function Navbar(){
                 </ul>
                 <ul className='navbar-right'>
                     <li className="nav-item">
-                        <NavLink to='/vdsa'>Item1</NavLink>
+                        <button className='darkmode-btn' onClick={toggleTheme}>DarkMode</button>
                     </li>
                     <li className="nav-item">
                         <NavLink to='/padw'>Item2</NavLink>

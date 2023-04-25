@@ -5,6 +5,8 @@
 body {
     margin: 0;
     font-family: Helvetica;
+
+
 }
 
 h1, h2 {
@@ -12,5 +14,14 @@ h1, h2 {
 }
 
 .App {
+}
 
+.light {
+    color: rgb(50,50,50);
+    background-color: rgb(250,250,250);
+}
+
+.dark {
+    color: rgb(250,250,250);
+    background-color: rgb(50,50,50);
 }

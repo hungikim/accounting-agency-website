@@ -19,6 +19,7 @@
     border: solid 1px #999999;
     cursor: pointer;
     width: 100%;
+    height: auto;
 }
 
 .map-comment {
