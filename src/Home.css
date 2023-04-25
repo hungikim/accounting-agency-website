@@ -2,26 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 50px;
-    gap: 50px;
+    margin: 50px 0 100px 0;
+    gap: 100px;
+    line-height: 2;
 }
 
 .content-intro {
     text-align: center;
+    padding: 0 25px;
 }
 
 .content {
     border: solid 1px #999999;
     border-radius: 20px;
     padding: 50px;
-    width: clamp(100px, 100%, 800px);
+    width: clamp(100px, 60%, 800px);
 
 }
 
 .content-image {
     width: 240px;
-    height: 150px;
     float: right;
     border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .content-intro {
+        font-size: 20px;
+    }
+    .content-image {
+        width: 100%;
+        padding-bottom: 30px;
+        float: none;
+    }
 }

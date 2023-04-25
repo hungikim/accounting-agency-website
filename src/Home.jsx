@@ -9,7 +9,7 @@ export default function Home(){
                 "고객의 권익을 확실하게 챙기겠습니다."
             </h1>
             <section className='content kijang'>
-                <img src={greenLocation} className='content-image' />
+            <img src={greenLocation} className='content-image' />
                 <h2 className="sub-title">세무기장서비스</h2>
                 <p className='content-description'>
                     회계장부작성 및 각종 세무대리신고<br />

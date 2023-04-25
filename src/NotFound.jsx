@@ -13,7 +13,7 @@ export default function NotFound(){
 
     return (
         <div className='NotFound'>
-            :( 유효한 URL이 아닙니다. 잠시 후 메인 페이지로 리다이렉트됩니다 ...
+            유효한 URL이 아닙니다. 잠시 후 메인 페이지로 리다이렉트됩니다 ...
         </div>
     )
 }

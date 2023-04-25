@@ -24,10 +24,10 @@ export default function Navbar(){
                 </ul>
                 <ul className='navbar-right'>
                     <li className="nav-item">
-                        <NavLink>Item1</NavLink>
+                        <NavLink to='/vdsa'>Item1</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink>Item2</NavLink>
+                        <NavLink to='/padw'>Item2</NavLink>
                     </li>
                 </ul>
             </nav>
