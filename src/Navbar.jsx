@@ -10,12 +10,13 @@ export default function Navbar(){
     return (
         <header>
             <nav className='Navbar' onClick={navScrollToTop}>
-                <div className='logo'>
-                    <NavLink to='/'>그린세무법인</NavLink>
-                </div>
+                <div className='logo'>그린세무법인</div>
                 <ul className='navbar-center'>
                     <li className="nav-item">
-                        <NavLink to='/'>홈</NavLink>
+                        <NavLink to='/'>서비스</NavLink>
+                    </li>
+                    <li className='nav-item'>
+                        <NavLink to='/dfg'>요금안내</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to='/office'>오시는길</NavLink>
