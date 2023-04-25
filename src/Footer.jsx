@@ -18,7 +18,7 @@ export default function Footer(){
                 </ul>
                 <ul className="footer-column">
                     <li className='footer-column-title'>제목3</li>
-                    <li>항문1</li>
+                    <li>항목1</li>
                     <li>항목2</li>
                 </ul>
                 <ul className="footer-column">
