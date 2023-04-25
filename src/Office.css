@@ -11,16 +11,19 @@
     text-align: center;
 }
 
+.map-container {
+    width: clamp(300px, 100%, 800px);
+}
 .map-image {
     border-radius: 20px;
-    border: solid 1px #CCCCCC;
-    width: 800px;
-    flex-basis: 400px;
+    border: solid 1px #999999;
     cursor: pointer;
+    width: 100%;
 }
 
 .map-comment {
     margin: 0.5rem;
     text-align: right;
-    color: gray;
+    color: #999999;
+    font-size: smaller;
 }
