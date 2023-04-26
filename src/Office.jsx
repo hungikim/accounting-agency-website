@@ -2,8 +2,11 @@ import './Office.css'
 import greenLocation from './assets/green-location.png'
 
 export default function Office(){
+    const onLoad = () => {
+        document.querySelector('.Office').style.opacity = '1';
+    }
     return (
-        <div className='Office'>
+        <div className='Office' onLoad={onLoad}>
             <div className='address'>
                 <h1>오시는 길</h1><br />
                 <p>주소: 안산시 광덕4로 116 304호</p>

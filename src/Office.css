@@ -1,4 +1,6 @@
 .Office {
+    opacity: 0;
+    transition: 1s ease;
     display: flex;
     flex-direction: column;
     align-items: center;

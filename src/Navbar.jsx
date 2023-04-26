@@ -28,7 +28,7 @@ export default function Navbar({ toggleTheme, theme }){
                 </ul>
                 <ul className='navbar-right'>
                     <li className="nav-item">
-                        <button className='darkmode-btn' onClick={toggleTheme}>다크모드</button>
+                        <button className='darkmode-btn' onClick={toggleTheme}>☼</button>
                     </li>
 
                 </ul>
