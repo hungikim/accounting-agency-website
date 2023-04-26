@@ -21,7 +21,8 @@
 }
 
 .content-image {
-    width: 240px;
+    width: 250px;
+    height: auto;
     float: right;
     border-radius: 10px;
 }
@@ -32,7 +33,7 @@
     }
     .content-image {
         width: 100%;
-        padding-bottom: 30px;
+        margin-bottom: 25px;
         float: none;
     }
 }

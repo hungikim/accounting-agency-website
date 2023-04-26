@@ -9,7 +9,7 @@ export default function Office(){
                 <p>주소: 안산시 광덕4로 116 304호</p>
                 <p>TEL: 031-439-3455</p>
                 <p>FAX: 031-439-3466</p>
-                <p>전화상담: 09:00 ~ 17:00</p>
+                <p>전화상담: 월~금 09:00 ~ 17:00</p>
             </div>
             <div className='map-container'>
                 <img className='map-image' 
