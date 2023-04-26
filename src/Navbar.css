@@ -58,13 +58,22 @@ header {
     background-color: inherit;
 }
 
-@media (max-width: 600px) {
-    .Navbar {
-    }
+.navbar-break { display: none; }
+
+@media (max-width: 800px) {
     .navbar-right {
         order: 1;
-    }
-    .navbar-center {
+    } 
+    /* Adding a linebreak because on mobile I want to display 
+       logo & navbar-right on the first line
+       and navbar-center on the second line */
+    .navbar-break {
+        flex-basis: 100%;
+        display: block;
         order: 2;
     }
+    .navbar-center {
+        order: 3;
+    }
+    
 }

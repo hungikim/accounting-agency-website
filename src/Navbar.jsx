@@ -32,6 +32,7 @@ export default function Navbar({ toggleTheme, theme }){
                     </li>
 
                 </ul>
+                <div className='navbar-break'></div>
             </nav>
         </header>
     )
