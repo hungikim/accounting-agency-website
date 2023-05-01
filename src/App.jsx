@@ -8,25 +8,12 @@ import Prices from './Prices.jsx'
 import Office from './Office.jsx'
 import NotFound from './NotFound.jsx'
 
-// TODO: darkmode...
-
 export default function App() {
   const [theme, setTheme] = useState('light')
   const toggleTheme = () => {
     if (theme === 'light') setTheme('dark')
     else setTheme('light')
   }
-  useEffect(()=> {
-    if (window.matchMedia) { // Detect user's device dark/light theme setting
-      window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
-    }
-    // Add listener to detect user's device theme setting change
-    window.matchMedia('(prefers-color-scheme: dark)')
-    .addEventListener('change', event => {
-      const colorScheme = event.matches ? "dark" : "light";
-      setTheme(colorScheme);
-    });
-  }, []);
 
   useEffect(()=>{
     document.querySelector('.App').className = `App ${theme}`

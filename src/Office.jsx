@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 export default function Office(){
     useEffect( () => {
         document.querySelector('.Office').style.opacity = '1';
+        document.querySelector('.Office').style.transform = 'translateY(0%)';
     }, [])
 
     // Load the map from Kakao Map API (Map service in South Korea)
