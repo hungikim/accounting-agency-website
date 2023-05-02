@@ -4,11 +4,7 @@ header {
     top: 0;
     z-index: 3;
 }
-@media (max-width:800px){
-    header {
-        position: relative;
-    }
-}
+
 .Navbar {
     display: flex;
     font-size: 18px;
@@ -66,7 +62,10 @@ header {
 
 .navbar-break { display: none; }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+    .header {
+        position: relative;
+    }
     .navbar-right {
         order: 1;
     } 

@@ -4,7 +4,7 @@ export default function Footer(){
     return (
         <footer className='Footer'>
             <div className='footer-container'>
-                <div className='footer-column footer-tel-info'>
+                <div className='footer-tel-info'>
                     <p className='footer-column-title'>전화상담</p>
                     <p>031-439-3455 (월~금 09:00 ~ 17:00)</p>
                 </div>

@@ -8,7 +8,6 @@ export default function Navbar({ toggleTheme, theme }){
         if (e.target.matches('.Navbar a')) window.scrollTo(0,0)
     }
 
-
     return (
         <header className={theme}>
             <nav className='Navbar' onClick={navScrollToTop}>
@@ -29,9 +28,10 @@ export default function Navbar({ toggleTheme, theme }){
                 </ul>
                 <ul className='navbar-right'>
                     <li className="nav-item">
-                        <button className='darkmode-btn' onClick={toggleTheme} title='다크 모드로 전환'>☼</button>
+                        <button className='darkmode-btn' onClick={toggleTheme} title='다크 모드로 전환'>
+                            ☼
+                        </button>
                     </li>
-
                 </ul>
                 <div className='navbar-break'></div>
             </nav>

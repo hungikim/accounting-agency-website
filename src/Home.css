@@ -13,28 +13,36 @@
 .content-intro {
     text-align: center;
     padding: 0 25px;
+    line-height: 1.5;
 }
 
 .content {
     border-radius: 20px;
     padding: 50px;
-    width: clamp(100px, 60%, 800px);
+    width: clamp(100px, 50%, 800px);
     box-shadow: 1px 2px 5px rgb(130,130,130);
 }
 
-.content-image {
-    width: 250px;
-    height: auto;
+.content-icon {
+    height: 3rem;
+    width: 6rem;
+    padding: 40px;
     float: right;
     border-radius: 10px;
+    background-color: rgba(43, 201, 149, 0.2);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .content-intro {
         font-size: 20px;
     }
+    .content {
+        padding: 20px;
+        width: 75vw;
+        text-align: center;
+    }
     .content-image {
-        width: 100%;
+        width: 50%;
         margin-bottom: 25px;
         float: none;
     }

@@ -1,5 +1,4 @@
 .Footer {
-    min-height: 40vh;
     border-top: solid 1px #CCCCCC;
     display: flex;
     align-items: center;
@@ -19,6 +18,8 @@
 
 .footer-column {
     list-style: none;
+    color: #888;
+    font-size: 95%;
 }
 
 .footer-column-title {
@@ -30,7 +31,4 @@
 .footer-break {
     flex-basis: 100%;
     height: 50px;
-}
-
-.footer-tel-info {
 }

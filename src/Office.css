@@ -17,41 +17,20 @@
 .map-container {
     width: clamp(300px, 90%, 800px);
     height: 450px;
-
+    outline: 1px solid #999999;
 }
 
 .map-infowindow {
+    background: white;
     position: relative;
-    bottom: 70px;
-    border-radius: 6px;
-}
-.map-infowindow:nth-of-type(n) {
-    box-shadow: 0px 2px 4px #999999;
+    bottom: 62px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px #999999;
+    font-weight: bold;
+    font-size: 90%;
 }
 .map-infowindow a {
-    display: block;
     text-decoration: none;
     color: black;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: bold;
-    overflow: hidden;
-    background: darkgreen url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png') no-repeat right 14px center;
-}
-.map-infowindow .iw-title {
-    display: block;
-    background: white;
-    margin-right: 35px;
-    padding: 10px 15px;
-}
-
-.map-infowindow:after {
-    content: '';
-    position: absolute;
-    margin-left: -12px;
-    margin-bottom: -12px;
-    left: 50%;
-    width: 22px;
-    height: 12px;
-    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
 }

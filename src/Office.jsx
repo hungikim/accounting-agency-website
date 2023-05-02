@@ -1,7 +1,7 @@
 import './Office.css'
-import greenLocation from './assets/green-location.png'
 import { useEffect } from 'react'
-
+import chevronIcon from './assets/chevron-right.svg'
+import caretIcon from './assets/caret-right-fill.svg'
 export default function Office(){
     useEffect( () => {
         document.querySelector('.Office').style.opacity = '1';
@@ -29,7 +29,13 @@ export default function Office(){
 
         var infowindow = new kakao.maps.CustomOverlay({
             position: new kakao.maps.LatLng(37.31500298207166, 126.82521778307598),
-            content: `<div class="map-infowindow"><a href='http://kko.to/gcgRt6dO7G' target='_blank'><span class='iw-title'>그린세무법인</span></a></div>`
+            content: `<div class="map-infowindow">
+                        <a href='http://kko.to/gcgRt6dO7G' target='_blank'>
+                            <span class='iw-title'>
+                                그린세무법인 ▸
+                            </span>
+                        </a>
+                      </div>`
         })
         infowindow.setMap(map)
         
