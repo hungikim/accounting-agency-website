@@ -45,7 +45,7 @@ export default function Office(){
         <div className='Office'>
             <div className='address'>
                 <h1>오시는 길</h1><br />
-                <p>주소: 경기도 안산시 광덕4로 116 304호<br />(고잔역 2번출구 도보 5분)</p>
+                <p style='line-height:1.5;'>주소: 경기도 안산시 광덕4로 116 304호<br />(고잔역 2번출구 도보 5분)</p>
                 <p>TEL: 031-439-3455</p>
                 <p>FAX: 031-439-3466</p>
                 <p>전화상담: 월~금 09:00 ~ 17:00</p>
