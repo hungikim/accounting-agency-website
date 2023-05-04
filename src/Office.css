@@ -12,7 +12,10 @@
 
 .address {
     text-align: center;
-    line-height: 
+}
+
+.address p:first-of-type {
+    line-height: 1.5;
 }
 
 .map-container {
