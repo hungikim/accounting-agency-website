@@ -6,7 +6,7 @@ export default function Footer(){
             <div className='footer-container'>
                 <div className='footer-tel-info'>
                     <p className='footer-column-title'>전화상담</p>
-                    <p>031-439-3455 (월~금 09:00 ~ 17:00)</p>
+                    <p><a href='tel:0314393455'>031-439-3455</a> (월~금 09:00 ~ 17:00)</p>
                 </div>
                 <div className='footer-break'></div>
                 <ul className="footer-column">

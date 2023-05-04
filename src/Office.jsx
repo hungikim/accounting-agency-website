@@ -1,7 +1,6 @@
 import './Office.css'
 import { useEffect } from 'react'
-import chevronIcon from './assets/chevron-right.svg'
-import caretIcon from './assets/caret-right-fill.svg'
+
 export default function Office(){
     useEffect( () => {
         document.querySelector('.Office').style.opacity = '1';
