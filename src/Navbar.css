@@ -7,7 +7,7 @@ header {
 
 .Navbar {
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -19,7 +19,7 @@ header {
 }
 
 .logo {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: bold;
     color: darkgreen;
     padding: 20px 0;
@@ -68,9 +68,7 @@ header {
     .navbar-right {
         order: 1;
     } 
-    /* Adding a linebreak because on mobile I want to display 
-       logo & navbar-right on the first line
-       and navbar-center on the second line */
+    /* Linkbreak; Navbar becomes two lines on mobile */
     .navbar-break {
         flex-basis: 100%;
         display: block;

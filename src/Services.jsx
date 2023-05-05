@@ -1,4 +1,4 @@
-import './Home.css'
+import './Services.css'
 import personIcon from './assets/person-vcard.svg'
 import calculatorIcon from './assets/calculator-fill.svg'
 import textIcon from './assets/layout-text-sidebar-reverse.svg'
@@ -6,12 +6,12 @@ import cardIcon from './assets/card-checklist.svg'
 
 import { useEffect } from 'react'
 
-export default function Home(){
+export default function Services(){
     useEffect(() => {
-        document.querySelector('.Home').style.opacity = '1';
+        document.querySelector('.Services').style.opacity = '1';
     }, [])
     return (
-        <main className='Home'>
+        <main className='Services'>
             <h1 className='content-intro'>
                 국세청 20년 경력을 바탕으로<br />
                 "고객의 권익을 확실하게 챙기겠습니다."

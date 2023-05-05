@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
-import Home from './Home.jsx'
+import Services from './Services.jsx'
 import Prices from './Prices.jsx'
 import Office from './Office.jsx'
 import NotFound from './NotFound.jsx'
@@ -23,7 +23,7 @@ export default function App() {
     <div className={`App ${theme}`}>
       <Navbar toggleTheme={toggleTheme} theme={theme} />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Services />} />
         <Route path='/prices' element={<Prices />} />
         <Route path='/office' element={<Office />} />
         <Route path='*' element={<NotFound />} />

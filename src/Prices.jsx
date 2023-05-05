@@ -1,5 +1,5 @@
 import "./Prices.css";
-import "./Home.css";
+
 import personIcon from './assets/person-square.svg'
 import buildingIcon from './assets/building-fill.svg'
 import { useEffect } from "react";
