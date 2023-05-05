@@ -1,39 +1,18 @@
 .Footer {
     border-top: solid 1px #CCCCCC;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.footer-container {
-    display:flex;
-    flex-basis: 80%;
-    align-items: flex-start;
-    justify-content: space-around;
-    line-height: 2;
-    flex-wrap: wrap;
-    margin-top: 75px;
-    margin-bottom: 100px;
-}
-
-.footer-column {
-    list-style: none;
-    color: #888;
-    font-size: 95%;
-}
-
-.footer-column-title {
+.footer-info-title {
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.footer-tel-info a {
+.footer-info a {
     color: darkgreen;
     font-weight: bold;
-}
-
-.footer-break {
-    flex-basis: 100%;
-    height: 50px;
 }
 
