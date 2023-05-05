@@ -5,7 +5,7 @@ export default function Footer(){
         <footer className='Footer'>
             <div className='footer-info'>
                 <p className='footer-info-title'>전화상담</p>
-                <p><a href='tel:0314393455'>031-439-3455</a> (월~금 09:00 ~ 17:00)</p>
+                <p><a className='phont-number' href='tel:0314393455'>031-439-3455</a> (월~금 09:00 ~ 17:00)</p>
             </div>
             <div className='footer-info'>
                 <p className='footer-info-title'>그린세무법인</p>
