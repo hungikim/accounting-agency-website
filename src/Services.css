@@ -5,14 +5,14 @@
     flex-direction: column;
     align-items: center;
     margin: 50px 0 100px 0;
-    gap: 50px;
+    gap: 75px;
     line-height: 2;
 }
 
 .content-intro {
     text-align: center;
     padding: 0 25px;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 .content {
@@ -36,13 +36,22 @@
         font-size: 20px;
     }
     .content {
-        padding: 20px;
-        width: 75vw;
+        padding: 40px;
+        width: 70vw;
         text-align: center;
     }
+
+    .content-description {
+        text-align: left;
+    }
+    .sub-title {
+        padding-bottom: 20px;
+    }
     .content-icon {
-        width: 50%;
-        margin-bottom: 25px;
-        float: none;
+        width: 2rem;
+        padding: 0;
+        background: inherit;
+        margin-right: 10%;
+        float: right;
     }
 }

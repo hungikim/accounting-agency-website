@@ -14,10 +14,10 @@ export default function Navbar({ toggleTheme, theme }){
                 <div className='logo'>그린세무법인</div>
                 <ul className='navbar-center'>
                     <li className='nav-item'>
-                        <NavLink to='/info'>홈</NavLink>
+                        <NavLink to='/'>홈</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to='/'>서비스</NavLink>
+                        <NavLink to='/services'>서비스</NavLink>
                     </li>
                     <li className='nav-item'>
                         <NavLink to='/prices'>요금안내</NavLink>

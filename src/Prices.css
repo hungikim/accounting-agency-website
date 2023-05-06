@@ -18,7 +18,7 @@
 
 .price-section {
     padding: 40px 70px;
-    border-radius: 20px;
+    border-radius: 40px;
     box-shadow: 0px 5px 20px rgb(130,130,130);
     font-size: 1.05em;
 }
@@ -36,6 +36,12 @@
 
 .price-list {
     margin: 30px 0;
+    list-style: none;
+}
+
+.checkmark {
+    margin-bottom: -2px;
+    margin-right: 1rem;
 }
 
 .price {
@@ -53,12 +59,8 @@
 
 @media (max-width:768px) {
     .price-section {
-        padding: 20px;
-        width: 75vw;
+        max-width: 65vw;
+        padding: 40px;
     }
-    .price-icon {
-    }
-    .price-list {
-        padding: 0 30px;
-    }
-}
+    
+}  

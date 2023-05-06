@@ -22,7 +22,6 @@ header {
     font-size: 22px;
     font-weight: bold;
     color: darkgreen;
-    padding: 20px 0;
 }
 
 .navbar-center a.active {
@@ -32,12 +31,12 @@ header {
     text-underline-offset: 5px;
 }
 .navbar-right a {
-    color: gray;
+    color: grey;
 }
 
 .nav-item {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 
 .nav-item *:hover {
@@ -47,14 +46,14 @@ header {
 }
 
 .nav-item * {
-    padding: 10px 15px;
+    padding: 8px 12px;
 }
 
 .darkmode-btn {
     border: 0;
-    color: gray;
+    color: grey;
     font-size: 180%;
-    padding:0 10px;
+    padding: 0 10px;
     font-weight: bold;
     background-color: inherit;
 }
@@ -62,9 +61,6 @@ header {
 .navbar-break { display: none; }
 
 @media (max-width: 768px) {
-    .header {
-        position: relative;
-    }
     .navbar-right {
         order: 1;
     } 
@@ -76,6 +72,9 @@ header {
     }
     .navbar-center {
         order: 3;
+    }
+    .nav-item {
+        padding: 0px 5px;
     }
     
 }
