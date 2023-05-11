@@ -4,12 +4,8 @@ import calculatorIcon from './assets/calculator-fill.svg'
 import textIcon from './assets/layout-text-sidebar-reverse.svg'
 import cardIcon from './assets/card-checklist.svg'
 
-import { useEffect } from 'react'
-
 export default function Services(){
-    useEffect(() => {
-        document.querySelector('.Services').style.opacity = '1';
-    }, [])
+    
     return (
         <main className='Services'>
             <h1 className='content-intro'>

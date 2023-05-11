@@ -39,7 +39,7 @@ header {
     padding: 0px 10px;
 }
 
-.nav-item *:hover {
+.nav-item a:hover, .nav-item .darkmode-btn:hover {
     background: rgba(230, 230, 230, 0.6);
     border-radius: 10px;
     cursor: pointer;
@@ -51,11 +51,13 @@ header {
 
 .darkmode-btn {
     border: 0;
-    color: grey;
     font-size: 180%;
-    padding: 0 10px;
-    font-weight: bold;
+    padding: 0;
     background-color: inherit;
+}
+
+.darkmode-btn img {
+    margin-bottom: -6px;
 }
 
 .navbar-break { display: none; }
