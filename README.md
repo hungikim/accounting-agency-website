@@ -1,6 +1,6 @@
 # accounting-agency-website
 
-Website for Green Accounting Firm, South Korea.<br>
+Website for a tax agency, Green Tax Accounting Corporation, in South Korea.<br>
 Live Website: <a href="https://greentax.netlify.app" target="_blank">greentax.netlify.app</a><br>
 
 Built with React, HTML, CSS, hosted on Netlify<br>
