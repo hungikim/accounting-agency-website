@@ -1,6 +1,7 @@
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import sunIcon from './assets/sun.svg'
+import greenTaxLogo from './assets/green-logo.png'
 export default function Navbar({ toggleTheme, theme }){
 
     const navScrollToTop = e => {
@@ -10,7 +11,9 @@ export default function Navbar({ toggleTheme, theme }){
     return (
         <header className={theme}>
             <nav className='Navbar' onClick={navScrollToTop}>
-                <div className='logo'>그린세무법인</div>
+                <div>
+                    <img className='logo' src={greenTaxLogo} />
+                </div>
                 <ul className='navbar-center'>
                     <li className='nav-item'>
                         <NavLink to='/'>홈</NavLink>
