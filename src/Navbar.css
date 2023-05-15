@@ -4,10 +4,10 @@ header {
     top: 0;
     z-index: 3;
 }
-
+.Navbar * {margin: 0;}
 .Navbar {
     display: flex;
-    font-size: 16px;
+    font-size: 22px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -19,10 +19,13 @@ header {
 }
 
 .logo {
-    height: 60px;
-    margin-bottom: -10px;
+    height: 80px;
+    margin-bottom: -5px;
 }
 
+.navbar-center {
+    margin-right: 150px;
+}
 .navbar-center a.active {
     color: green;
     text-decoration: underline;
@@ -50,18 +53,20 @@ header {
 
 .darkmode-btn {
     border: 0;
-    font-size: 180%;
     padding: 0;
     background-color: inherit;
 }
 
 .darkmode-btn img {
-    margin-bottom: -6px;
+    height: 1.3rem;
 }
 
 .navbar-break { display: none; }
 
 @media (max-width: 768px) {
+    .Navbar {
+        font-size: 18px;
+    }
     .navbar-right {
         order: 1;
     } 
@@ -71,8 +76,13 @@ header {
         display: block;
         order: 2;
     }
+    .logo {
+        height: 70px;
+    }
     .navbar-center {
         order: 3;
+        white-space: nowrap;
+        margin: 5px 0 20px 0;
     }
     .nav-item {
         padding: 0px 5px;

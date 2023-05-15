@@ -21,10 +21,10 @@
 
 .carousel-txt {
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%); 
-    font-size: 1.2rem;
+    font-size: 22px;
 }
 
 .carousel-txt h3 {
@@ -35,7 +35,7 @@
     text-align: center;
 }
 .carousel-txt-1 h1 {
-    font-size: 2rem;
+    font-size: 40px;
 }
 
 .carousel-txt-2 {
@@ -50,9 +50,12 @@
     position: absolute;
     top: 3%;
     right: 5%;
-    background: rgba(0,0,0, 0.1);
     padding: 4px;
     border-radius: 5px;
+    color: rgba(0,100,0);
+    background-color: rgba(200,200,200,0.8);
+    text-shadow: 0 0x 8px #EEE;
+    font-weight: bold;
 }
 
 .carousel-prev, .carousel-next {

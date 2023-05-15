@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <span className='carousel-tel'>031-439-3455</span>
+            <a className='carousel-tel' href='tel:0314393455'>031-439-3455</a>
             <span className='carousel-prev' onClick={prevSlide}>&#10094;</span>
             <span className='carousel-next' onClick={nextSlide}>&#10095;</span>
             <div className='dots'>
