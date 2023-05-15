@@ -1,8 +1,103 @@
-.Home {
-    opacity: 1;
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    color: #EEE;
+}
+.carousel-item {
     transition: 0.5s ease;
-    display: flex;
-    margin: 50px 0 100px 0;
-    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
+.carousel-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.carousel-txt {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 1.2rem;
+}
+
+.carousel-txt h3 {
+    line-height: 2.5;
+}
+
+.carousel-txt-1 {
+    text-align: center;
+}
+.carousel-txt-1 h1 {
+    font-size: 2rem;
+}
+
+.carousel-txt-2 {
+    color: rgb(30,30,30);
+}
+
+.carousel-txt-4 {
+    color: rgb(30,30,30);
+}
+
+.carousel-tel {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    background: rgba(0,0,0, 0.1);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 40%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    background: rgba(0,0,0, 0.2);
+    border-radius: 5px;
+}
+
+.carousel-prev {
+    left: 5%;
+}
+.carousel-next {
+    right: 5%;
+}
+
+.carousel-prev:hover {
+    opacity: 0.5;
+}
+.carousel-next:hover {
+    opacity: 0.5;
+}
+
+.dots {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.dot {
+    display: inline-block;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: #EEE;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .carousel-txt {
+        width: 70vw;
+        font-size: 1rem;
+    }
+}
