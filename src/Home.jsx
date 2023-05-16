@@ -9,8 +9,8 @@ import { useState } from 'react'
 export default function Home() {
     const [slideIndex, setSlideIndex] = useState(0)
     useEffect(()=>{
-        //const interval = setInterval(nextSlide, 5000)
-        //return () => clearInterval(interval)
+        const interval = setInterval(nextSlide, 4000)
+        return () => clearInterval(interval)
     }, [])
     useEffect(()=>{// show new slide
         const carousel = document.querySelectorAll('.carousel-item')

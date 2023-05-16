@@ -4,7 +4,7 @@ header {
     top: 0;
     z-index: 3;
 }
-.Navbar * {margin: 0;}
+.Navbar * {margin:0;}
 .Navbar {
     display: flex;
     font-size: 22px;
