@@ -1,5 +1,5 @@
 import './Navbar.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import sunIcon from './assets/sun.svg'
 import greenTaxLogo from './assets/green-logo.png'
 export default function Navbar({ toggleTheme, theme }){
@@ -7,12 +7,13 @@ export default function Navbar({ toggleTheme, theme }){
     const navScrollToTop = e => {
         if (e.target.matches('.Navbar a')) window.scrollTo(0,0)
     }
+    const navigate = useNavigate()
 
     return (
         <header className={theme}>
             <nav className='Navbar' onClick={navScrollToTop}>
                 <div>
-                    <img className='logo' src={greenTaxLogo} />
+                    <img className='logo' src={greenTaxLogo} onClick={()=>navigate('/')} />
                 </div>
                 <ul className='navbar-center'>
                     <li className='nav-item'>

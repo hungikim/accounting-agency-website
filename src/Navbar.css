@@ -21,6 +21,7 @@ header {
 .logo {
     height: 80px;
     margin-bottom: -5px;
+    cursor: pointer;
 }
 
 .navbar-center {

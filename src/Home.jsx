@@ -67,9 +67,11 @@ export default function Home() {
                 <div className='carousel-txt carousel-txt-3'>
                     <h3>
                         오직 <br/>
-                        대한민국 경제의 근본이자 뿌리인 <br/>
+                        대한민국 경제의 <br/>
+                        근본이자 뿌리인 <br/>
                         중소기업의 발전과 성장의 길에 <br/>
-                        그린세무법인이 함께하겠습니다 <br/>
+                        그린세무법인이 <br/>
+                        함께하겠습니다 <br/>
                     </h3>
                 </div>
             </div>
