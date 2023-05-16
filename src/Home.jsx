@@ -38,7 +38,7 @@ export default function Home() {
     return (
         <section className='Home carousel'>
             <div className='carousel-item'>
-                <img className='carousel-img' src={greenImg} />
+                <img className='carousel-img' src={greenImg} loading='lazy'/>
                 <div className='carousel-txt carousel-txt-1'>
                     <h3>
                         바른 약속과 신뢰로 <br/>
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             
             <div className='carousel-item'>
-                <img className='carousel-img' src={buildingImg1} />
+                <img className='carousel-img' src={buildingImg1} loading='lazy'/>
                 <div className='carousel-txt carousel-txt-2'>
                     <h3>
                         건강한 상식을 바탕으로 하는 <br/>
@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='carousel-item'>
-                <img className='carousel-img' src={buildingImg2} />
+                <img className='carousel-img' src={buildingImg2} loading='lazy'/>
                 <div className='carousel-txt carousel-txt-3'>
                     <h3>
                         오직 <br/>
@@ -76,8 +76,8 @@ export default function Home() {
                 </div>
             </div>
             <div className='carousel-item'>
-                <img className='carousel-img' src={buildingImg3} />
-                <div className='carousel-txt carousel-txt-4'>
+                <img className='carousel-img' src={buildingImg3} loading='lazy'/>
+                    <div className='carousel-txt carousel-txt-4'>
                     <h3>
                         함께 하는 <br/>
                         따뜻한 마음과 공간의 시간이 <br/>
