@@ -10,5 +10,5 @@ Please note, the website is in Korean since it was built for a business based in
 It includes a map API (from a korean map service Kakao Map) in the Directions To Office page.<br>
 
 <img width="1264" alt="Screenshot 2023-05-22 at 3 42 33 PM" src="https://github.com/hungikim/accounting-agency-website/assets/62039385/a7ebcd5a-d476-4f6a-a3b0-b2e0ec7b5b17">
-![IMG_8914](https://github.com/hungikim/accounting-agency-website/assets/62039385/68af4b59-7323-49a3-8de4-e19dbcd422f8)
+<img width='600' src='https://github.com/hungikim/accounting-agency-website/assets/62039385/68af4b59-7323-49a3-8de4-e19dbcd422f8'>
 
